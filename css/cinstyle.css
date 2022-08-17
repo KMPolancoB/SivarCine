@@ -1,0 +1,871 @@
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+}
+
+body{
+
+    background-color: #111;
+
+    color: #fafafa;
+
+}
+
+ul li{
+
+list-style: none outside;
+
+color: #fafafa;
+
+font-weight: 400;
+
+font-family: 'Alumni Sans', sans-serif;
+
+padding: 0;
+
+font-size: 25px;
+
+}
+
+
+
+p{
+
+color: #fafafa;
+
+font-weight: 400;
+
+}
+
+
+
+a:link, a:visited, a:active{text-decoration: none;}
+
+/*---------------------REDES SOCIALES-----------------------*/
+
+header{
+
+    padding: 2px 0px;
+
+    background-color: #111;
+
+}
+
+
+.social-container{
+
+	display: flex;
+
+	height: 8vh;
+
+	width: 100%;
+
+	justify-content: flex-end;
+
+	margin: 1px 0px 0px 5px;
+
+}
+
+
+
+.social-container ul li{
+
+	display: inline-block;
+
+	margin: 5px 5px 5px;
+
+	width: 40px;
+
+	height: 40px;
+
+	text-align: center;
+
+}
+
+
+
+.social-container ul li a{
+
+	display: block;
+
+	padding: 0 5px;
+
+	background: #333;
+
+	color: #fff;
+
+	line-height: 40px;
+
+	font-size: 17px;
+
+	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+
+	transition: 0.3s;
+
+}
+
+
+
+.social-container ul:hover a{
+
+	filter: blur(2px);
+
+}
+
+
+
+.social-container ul li a:hover{
+
+	transform: translateY(-3px) scale(1.05);
+
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+
+	filter: none;
+
+}
+
+
+
+.social-container ul li .instagram:hover{
+
+    background-color: #ffff00;
+
+    color: black;
+
+    transition: 0.6s;
+
+}
+
+
+
+.social-container ul li .twitter:hover{
+
+    background-color: #ffff00;
+
+    color: black;
+
+    transition: 0.6s;
+
+}
+
+
+
+.social-container ul li .facebook:hover{
+
+    background-color: #ffff00;
+
+    color: black;
+
+    transition: 0.6s;
+
+}
+
+
+
+.social-container ul li .ema:hover{
+
+    background-color: #ffff00;
+
+    color: black;
+
+    transition: 0.6s;
+
+}
+
+/*------------------------NAVBAR----------------------------*/
+
+nav .navbar-collapse{
+
+	justify-content: flex-end;
+
+}
+
+.navbar-collapse ul li{
+
+	text-align: center;
+
+	background-color: #111111;
+
+	margin: 0px 10px;
+
+	height: 55px;
+
+}
+
+
+.navbar-collapse ul:hover a{
+
+	filter: blur(2px);
+}
+
+.navbar-collapse ul li a:hover{
+
+	transform: translateY(-3px) scale(1.05);
+
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+
+	filter: none;
+
+	background-color: #ffff00;
+
+	color: black;
+
+	transition: 0.6s;
+
+	font-weight: bolder;
+
+}
+
+/*--------------------- Menu en dispositivos moviles---------------------- */
+
+.navbar-toggler-icon{
+fill: #000000;
+}
+.navbar-toggler {
+background-color: #ffff00;
+}
+.nav-item{
+text-align: center;
+
+}
+
+
+/*----------------------------------VIDEO--------------------------------------*/
+
+.video{
+
+	margin: 40px;
+
+}
+
+
+/*---------------------BADGES DE HORARIOS--------------------------*/
+
+
+.hora{
+
+	margin: 0 0 7px 0;
+
+}
+
+
+.bg-warning{
+
+	
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	font-size:20px;
+
+	margin: 0 0 7px 0;
+
+	padding: 5px;
+
+}
+
+
+
+
+
+.card-text{
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	font-size: 24px;
+
+	text-align: justify;
+
+	padding: 5px;
+
+	margin: 10px 10px;
+
+}
+
+
+/*--------------------------MOSTRANDO AHORA-------------------*/
+
+.div-title{
+
+	background-color: #ffff00;
+
+}
+
+.pro{
+
+	margin: 0;
+
+	padding: 5px 0;
+
+}
+
+
+
+.pelis{
+
+	padding: 30px;
+
+}
+
+h1{
+
+	font-size: 60px;
+
+    font-weight: 700;
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	margin: 30px 0 15px 0;
+
+	padding: 5px 0 5px 30px;
+
+	color: #000000;
+
+}
+
+h2{
+
+	font-size: 40px;
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	margin: 20px 0 15px 0;
+
+	padding: 0 0 0 30px;
+
+	background-color: #ffff00;
+
+	color: #000000;
+
+}
+
+
+/*---------------------BOTON PELICULA INDEX--------------------------------*/
+
+
+.btn-outline-warning{
+
+	background-color: dark;
+
+	color: #ffff00;
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	font-size: 30px;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+
+.btn-outline-warning:hover{
+
+	color: dark;
+
+	background-color: #ffff00;
+
+	font-weight: bolder;
+
+}
+
+/*---------------------CARTELERA---------------------*/
+
+.tabla{
+
+	margin: 40px;
+
+	padding: 50px;
+
+}
+
+
+.titulo-peli{
+
+	padding-left: 20px;
+
+	margin: 10px;
+
+}
+
+
+.sinopsis{
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	text-align: justify;
+
+	font-size: 25px;
+
+	width: 20em;
+}
+
+
+.derechos{
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	margin: 0;
+
+	padding: 0;
+
+	font-size: 20px;
+
+	border-top: solid 1px #383838;
+
+}
+
+
+.min{
+
+	text-align: center;
+
+	max-width: 15rem;
+
+	padding: 0;
+
+	margin: 0 0 9px 0;
+
+}
+
+.max{
+
+	text-align: center;
+
+	width: 10em;
+
+	padding: 0;
+
+	margin: 0 0 9px 0;
+}
+ /*-------------CONTACTO-------------*/
+
+
+
+.todo-contact{
+
+	padding: 20px ;
+
+	margin: 15px 0;
+
+	width: 100%;
+
+	background-color: #222;
+
+	align-items: center	;
+
+	align-content: center;
+
+}
+
+
+.card{
+
+	border-color: #ffff00;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+
+
+.card-header{
+
+	text-align: center;
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	margin: 0;
+
+	padding: 0;
+
+	font-size: 50px;
+
+	background-color: #111111;
+
+	color: white;
+
+}
+
+
+.card-body{
+
+	padding: 20px;
+
+	margin: 0;
+
+	align-items: center;
+
+	align-content: center;
+
+	background-color: #111111;
+
+}
+
+
+.card-title{
+
+	align-content: center;
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	font-size: 58px;
+
+	text-align: center;
+
+	color: #ffff00;
+
+	border-bottom: 1px;
+
+}
+
+
+form{
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	font-size: 25px;
+
+}
+
+
+.pagina-info ul{
+
+	align-content: left;
+
+	align-items: left;
+
+	padding: 0;
+
+	margin: 0;
+
+}
+
+
+.pagina-info li{
+
+	list-style: none;
+
+	font-size: 20px;
+
+	font-family: 'Alumin Sans', sans-serif;
+
+	padding: 5px;
+
+	margin: 0;	
+
+}
+
+
+.pagina-info a:link{
+
+	color: white;
+
+	transition: 0.5s;
+
+}
+
+
+.pagina-info a:hover{
+
+	color: #ffff00;
+
+	transition: 0.5s;
+}
+
+
+
+.form-select, option{
+
+	font-size: 22px;
+
+	font-weight: bolder;
+
+}
+
+
+
+/*------------------------FOOTER------------------------------*/
+
+
+.footer{
+
+	background-color: #222;
+
+	color: #f5f5f5;
+
+	padding: 10px 0;
+
+}
+
+<!-----------------------Logo----------------------->
+
+.logo-2{
+
+	width: 100px;
+	height: 110px; 
+	margin: 0; 
+	padding: 10px;
+
+}
+
+
+.menu-title{
+
+	text-transform: uppercase;
+
+	color: #ffff00;
+
+	margin: 1.5em 0 .3em 0;
+
+	border-bottom: solid 1px #383838;
+
+}
+
+
+footer .footer-menu li a{
+
+	color: #f5f5f5;
+
+	margin-bottom: 8px;
+
+	text-decoration: none;
+
+}
+
+
+footer .footer-menu li a:hover {
+
+	color: #ffff00;
+
+	transition: 0.6s;
+
+}
+
+
+table th{
+
+	padding: 2rem .5rem 1rem .5rem !important
+
+}
+
+
+.fo{
+
+	font-size: 20px;
+
+	text-align: justify;
+
+}
+
+/*-----------------NAVBAR-------------------*/
+.navbar-brand{
+	margin: 0; 
+	padding: 0;
+}
+
+.espacio{
+	width: 28rem;
+}
+
+.logob{
+	  width: 150px;
+	  height: 105px; 
+	  margin: 0; 
+	  padding: 10px;
+}
+
+.card1{
+	 width: 25rem;
+	 padding: 0;
+	 margin: 0;
+}
+
+.ta{
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+}
+
+.boton{
+	max-width: 8rem;
+	padding: 0;
+	margin: 0;
+	align-content: center;
+	justify-content: center;
+}
+
+.margen_abajo{
+	margin-bottom: 15px;
+}
+
+.nosotras1{
+	width: 25rem; 
+	float: left;
+
+}
+
+.nosotras2{
+	width: 25rem;
+	float: right;
+}
+
+.titu{
+	max-width: 25em;
+	padding: 0;
+	margin: 0 0 10px 0;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.pels{
+	max-width: 13rem;
+	min-width: 2em;
+}
+
+.hor{
+	max-width: 19rem;
+}
+
+.pe{
+	max-width: 15.7rem;
+	min-width: 8.6em;
+}
+.titule{
+	max-width: 25em;
+	padding: 0;
+	margin: 0 0 10px 0;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.dul{
+
+	text-align: center;
+
+	max-width: 17rem;
+
+	padding: 0;
+
+	margin: 0 0 9px 0;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.mb-3{
+	width: 15em;
+}
+
+.prom{
+	width: 13em;
+}
+
+.tite{
+
+	text-align: left;
+
+	width: 15em;
+
+	padding: 0 20px;
+
+	margin: 0 0 9px 0;
+
+	
+}
+
+/*----------------- CARTELERA*/
+
+.arte{
+	margin: 20px;
+}
+
+.cart{
+
+}
+
+.card-header{
+	align-content: center;
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	font-size: 45px;
+
+	text-align: center;
+
+	color: black;
+
+	border-bottom: 1px;
+
+	background-color: #ffff00;
+}
+
+.tac{
+
+	text-align: center;
+
+	max-width: 15rem;
+
+	padding: 0;
+
+	margin: 0;
+
+}
+
+.hut{
+	font-family: 'Alumni Sans', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	padding: 0;
+	margin: 0;
+}
+
+.combo{
+	font-family: 'Alumni Sans', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	padding: 0;
+	margin: 0;
+}
+
+
+.card-texto{
+
+	font-family: 'Alumni Sans', sans-serif;
+
+	font-size: 20px;
+
+	text-align: justify;
+
+	padding: 0px;
+
+	margin: 10px 0 0 0;
+
+}
+
+.card-bodyd{
+
+	padding: 10px;
+
+	margin: 0;
+
+	align-items: center;
+
+	align-content: center;
+
+	background-color: #111111;
+
+}
